@@ -84,7 +84,7 @@ $(function () {
     $('.modal').fadeIn().animate(200);
     $('.meseg').fadeIn().animate();
 
-    $('.notification').append('<p>правильных ответов: ' + counter + ' из ' + $listanswers + '</p>');
+    $('.notification').append('<p>\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445 \u043E\u0442\u0432\u0435\u0442\u043E\u0432: ' + counter + ' \u0438\u0437 ' + $listanswers + '</p>');
   }
   $('.button').on('click', CheckAnswers);
   $('.exit').on('click', function () {

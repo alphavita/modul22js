@@ -93,8 +93,7 @@ for(let i = 0; i < test.length; i++){
   $('.meseg').fadeIn().animate();
 
 
-  $('.notification').append('<p>правильных ответов: '+ counter + ' из '+ $listanswers+  '</p>' );
-
+  $('.notification').append(`<p>правильных ответов: ${counter} из ${$listanswers}</p>` );
 }
 $('.button').on('click',CheckAnswers);
 $('.exit').on('click', function(){
